@@ -1,0 +1,143 @@
+       /*공통*/
+        *{margin: 0; padding: 0}
+        body{
+            overflow-x: hidden;
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+        .space{clear: both;}
+        .wrap{
+            width: 100%;
+            margin: 0 auto;
+        }
+        ul{list-style: none;}
+        /*헤더*/
+        .header{
+            padding: 20px 0;
+        }
+        .logo{
+            margin-left: 10px;
+            height: 50px;
+            width: 150px;
+            float: left;
+        }
+        .menu{
+            margin-right: 10px;
+            width: 390px;
+            height: 20px;
+            float: right;
+            padding: 20px 0;
+        }
+        .menu li{
+            margin-left: 25px;
+            font-size: 18px;
+            float: left;
+            text-align: center;
+        }
+        /*메인이미지*/
+        .mainimg{
+            width: 100%;
+            height: 330px;
+            background: url(../images/mianimg.jpg) no-repeat 0 0;
+            background-size: cover;
+        }
+        /*콘텐츠*/
+p{font-size: 16px;}
+        .box1{
+            width: 100%; margin-bottom: -10px;
+        }
+        .box2{
+            width: 100%;
+            height: 523px;
+            background-color: #545454;
+            margin: 0 auto;
+        }
+        .box2 div{
+            font-size: 25px;
+            color: #f2f2f2;
+            text-align: center;
+            padding-top: 80px;
+        }
+        .box3 h3{
+            font-size: 25px;
+            color: #545454;
+        }
+        .box3_left{
+            width: 50%;
+            height: 639px;
+            background-color: #7ed4a3;
+            float: left;
+        }
+        .box3_left div{
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+            padding-top: 100px;
+            text-align: center;
+            color: #545454;
+        }
+        .box3_right{
+            width: 50%;
+            height: 639px;
+            background-color: #90c2c7;
+            float: right;
+        }
+        .box3_right div{
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+            padding-top: 100px;
+            text-align: center;
+            color: #545454;
+        }
+        .box4 h3{
+            font-size: 25px;
+            color: #545454;
+        }
+        .box4_left{
+            width: 50%;
+            height: 639px;
+            background-color: #7ca9ae;
+            float: left;
+        }
+        .box4_left div{
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+            padding-top: 100px;
+            text-align: center;
+            color: #545454;
+        }
+        .box4_right{
+            width: 50%;
+            height: 639px;
+            background-color: #97d9b5;
+            float: right;
+        }
+         .box4_right div{
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+            padding-top: 100px;
+            text-align: center;
+            color: #545454;
+        }
+        /*푸터*/
+        .footer{
+            background-color: #f2f2f2;
+            height: 171px;
+        }
+        .copyright{
+            text-align: center;
+            color: #c0c0c0;
+            padding: 20px 0;
+        }
+        .sns{
+            margin: 0 auto;
+            width: 123px;
+            padding-top: 20px;
+        }
+        .sns li{
+            text-align: center;
+            float: left;
+            margin: 0 5px;
+        }
